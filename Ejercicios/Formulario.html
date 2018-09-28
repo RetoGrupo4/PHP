@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<title>
+    Formulario de entrada del dato
+</title>
+
+</head>
+<body>
+
+<form action="accion.php" method="POST">
+    Nombre: <input type="text" name="nombre" placeholder="Introduzca su nombre" size="12" required/>
+    <br>Edad: <input type="text" name="edad" placeholder="Introduzca su edad" size="10" required/>
+    <br>Sexo: <input type="radio"  name="sexo" value="Mujer" checked/> Femenino
+    <input type="radio" name="sexo" value="Mujer"/> Masculino
+
+    <br>Provincia: <input type="checkbox" name="extras[]" value="Bizkaia" checked>Bizkaia
+    <input type="checkbox" name="extras[]" value="Gipuzkoa">Gipuzkoa
+    <input type="checkbox" name="extras[]" value="Alava">Alava
+      
+    <br><input type="submit"/>
+
+     <br> <input type="button" name="actualizar" value="Actualizar datos"/>
+</form>
+
+</body>
+
+</html>  

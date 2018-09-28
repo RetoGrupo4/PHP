@@ -1,0 +1,13 @@
+.boton{
+    float: right;
+}
+
+fieldset{
+    background-color:rgba(232, 230, 255, 0.986); 
+    border: 2px solid rgb(98, 0, 255);
+}
+
+legend{
+    background-color:white; 
+    border: 2px solid rgb(98, 0, 255);
+}

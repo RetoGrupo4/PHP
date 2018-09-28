@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+}
+
+table{
+    background-color: rgba(199, 199, 199, 0.979);
+}
+
+body{
+    max-width: 1000px;
+    min-height: 800px;
+}
+
+td{
+    border:1px solid black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 50%;
+    
+}
+
+.tdtitulo{
+    text-align: right;
+}
+
+#tdcenter{
+    text-align: center;
+}
+textarea{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+}
